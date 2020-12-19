@@ -1,0 +1,12 @@
+main
+{
+
+CStrLib;
+type string s;
+type string r;
+
+s = 'Hello';
+
+r = strcop(s);
+write(r);
+}

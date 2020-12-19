@@ -1,0 +1,14 @@
+main
+{
+CStrLib;
+
+type string s;
+type string r;
+type string a;
+
+s = 'Hi';
+r = 'Efim';
+
+a = strcon(s, r);
+write(a);
+}

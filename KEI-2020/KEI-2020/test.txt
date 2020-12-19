@@ -1,0 +1,108 @@
+integer function int(integer a, integer b)
+{
+type integer c;
+c = 3*(a-b)+3/6;
+return c;
+}
+
+string function pw(string e)
+{
+type string d;
+type integer o;
+d = e;
+write(d);
+return d;
+}
+
+integer function qwerty()
+{
+type integer c;
+c = 1;
+return c; 
+}
+
+main
+{
+CStrLib;
+type integer g;
+type integer j;
+type integer s;
+type integer r;
+type integer r;
+type integer z;
+type integer nol;
+type integer lg;
+type integer eq;
+type string l;
+type string hi;
+type string p;
+type string tst;
+type string probel;
+type string nul;
+
+probel = ' ';
+l =' Success' ;
+hi =' Hello';
+
+g = 5;
+r = 2;
+nol = 0;
+eq = 1;
+
+j = int(g, r);
+p = pw(probel);
+write(j);
+write(hi);
+
+s = stepen(g, r);
+p = pw(probel);
+write(s);
+
+p = pw(l) ;
+
+g = qwerty() + g + 22;
+p = pw(probel);
+write(g);
+
+p = pw(probel);
+z = (g / 0) + 2;
+write(z);
+
+p = pw(probel);
+	
+p = pw(probel);
+tst = strcop(l);
+p = pw(tst);
+
+p = pw(probel);
+tst = strcon(l, hi);
+p = pw(tst);
+
+p = pw(probel);
+for(l);
+for(g);
+
+ifIisN(g);
+ifIisN(nol);
+
+ifSisN(nul);
+ifSisN(l);
+p = pw(probel);
+
+lg = ln(g);
+write(lg);
+p = pw(probel);
+
+lg = mathSin(g);
+write(lg);
+p = pw(probel);
+
+lg = mathCos(g);
+write(lg);
+p = pw(probel);
+
+less(g, r);
+more(r, eq);
+
+write(pw(l));
+}

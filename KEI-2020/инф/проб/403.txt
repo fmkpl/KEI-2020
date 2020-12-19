@@ -1,0 +1,10 @@
+main
+{
+CStrLib;
+CStrLib;
+type string f;
+type string g;
+g = 'PRI';
+f = strcopy('OPA');
+write(f);
+}

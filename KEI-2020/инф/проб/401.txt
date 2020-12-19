@@ -1,0 +1,7 @@
+main
+{
+CStrLib;
+type string f;
+f= stepen(2);
+write(f);
+}

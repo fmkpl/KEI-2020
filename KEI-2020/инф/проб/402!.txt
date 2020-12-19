@@ -1,0 +1,13 @@
+main
+{
+
+type string b;
+type string a;
+type integer s;
+type integer r;
+
+a = 'hi';
+b = strcop(a);
+s = stepen(3 ,2);
+write(b);
+}

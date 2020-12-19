@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>KEI-2020.exe -in:D:\STEPEN1\СТЕПЕНЬ\KEI-2020\KEI-2020\test.txt -log:D:\STEPEN1\СТЕПЕНЬ\KEI-2020\KEI-2020\log.txt -Gen:D:\STEPEN1\СТЕПЕНЬ\KEI-2020\KEI-2020\Gen.html</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
